@@ -1,0 +1,78 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment variables and secrets
+aws_credentials
+
+# AWS CLI credentials (if used)
+~/.aws/credentials
+~/.aws/config
+
+# Logs
+logs/
+*.log
+*.out
+*.err
+
+# Docker-related files
+docker-compose.override.yml
+.dockerignore
+
+# Spark-specific files
+spark-warehouse/
+metastore_db/
+derby.log
+*.hive-staging/*
+*.crc
+*.csv
+
+# Dataset files (add specific paths if they are in the repository)
+output/
+benchmarks/output/
+tmp/
+checkpoint/
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Virtual environments
+*.env/
+.venv/
+env/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDE / Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS specific
+.DS_Store
+*.DS_Store
+
+# Python dependencies
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Java and JAR files
+target/
+*.jar
+*.war
+*.nar
+*.ear
+
+# Node modules (if you’re using Node in this project)
+node_modules/
+package-lock.json
+yarn.lock
