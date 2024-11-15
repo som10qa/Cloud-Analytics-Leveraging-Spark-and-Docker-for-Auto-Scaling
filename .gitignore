@@ -3,13 +3,6 @@ __pycache__/
 *.py[cod]
 *.pyo
 
-# Environment variables and secrets
-aws_credentials
-
-# AWS CLI credentials (if used)
-~/.aws/credentials
-~/.aws/config
-
 # Logs
 logs/
 *.log
